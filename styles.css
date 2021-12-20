@@ -1,0 +1,204 @@
+/* PERSONAL HOMEPAGE */
+
+
+
+
+/* BASE STYLES
+----------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  background-color: rgba(51, 51, 51, 1);
+  color: floralwhite;
+  margin: 0;
+  padding: 0; 
+  line-height: 1.3;
+  font-size: 16px;
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+
+}
+
+/* MAIN
+----------------------------------------------- */
+main {
+
+background-color: rgba(68, 218, 218, 1);
+position: fixed;
+width: 464px;
+height: 5500px;
+left: 1020px;
+top: -40px;
+}
+
+
+/* TYPOGRAPHY
+----------------------------------------------- */
+a {
+  color: floralwhite;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(68, 218, 218, 1);
+}
+
+/* IMAGES
+---------------------------------------------- */
+
+img {
+  max-width: 100%;
+  max-height: auto;
+  padding: 2em;
+}
+
+.column {
+  width: 40%;
+  padding: 5px;
+  margin: 35em 0em 0em 15em;
+  position: absolute;
+}
+
+.brochure {
+
+  width: 175%;
+
+ }
+
+ .editorial {
+
+  width: 175%;
+ }
+
+/* HEADER
+----------------------------------------------- */
+
+h1 {
+
+  position: absolute;
+  width: 548px;
+  height: 153px;
+  left: 715px;
+  top: 240px;
+
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 76px;
+  letter-spacing: 0.115em;
+  text-transform: uppercase;
+    
+}
+
+h2 {
+
+  position: absolute;
+  width: 356px;
+  height: 32px;
+  left: 715px;
+  top: 185px;
+
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+
+
+}
+
+h4 {
+
+  color: #FF736A;
+  background: #FF736A;
+  position: absolute;
+  width: 625px;
+  height: 310px;
+  left: 653px;
+  top: 136px;
+}
+
+h5 {
+  position: absolute;
+  width: 625px;
+  height: 60px;
+  left: 653px;
+  top: 443px;
+  background: #FFC52F;
+  color: #FFC52F;
+}
+
+h6 {
+  position: absolute;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  text-align: left;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.115em;
+  text-transform: uppercase;
+  margin: 35em 5em 0em 5em;
+  width: 33em;
+
+
+}
+.one {
+  font-size: 60px;
+  color: #FFC52F;
+}
+
+.two {
+  font-size: 40px;
+  color: #FFC52F;
+}
+
+nav {
+
+  color: floralwhite;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  text-transform: uppercase;
+  left: 800px;
+  top: 468px;
+  position: absolute;
+  word-spacing: 30px;
+
+}
+
+
+/* FOOTER
+----------------------------------------------- */
+footer {
+  color: floralwhite;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 27px;
+  text-transform: uppercase;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+}
+
+
+
+/* MEDIA QUERIES
+----------------------------------------------- */
+@media (min-width: 800px) {
+  
+  body {
+    font-size: 24px;
+  }
+
+}
